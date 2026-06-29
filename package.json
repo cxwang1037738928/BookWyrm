@@ -1,0 +1,19 @@
+{
+  "name": "bookwyrm",
+  "version": "1.0.0",
+  "description": "Intelligent document retrieval with RAG and cosine similarity search",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^2.2.0",
+    "pdf-parse": "^1.1.1"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+uploads/
+.env
+# Transformers.js caches downloaded model weights
+.cache/
